@@ -5,6 +5,11 @@ export const DownloadApp = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <div className="scroll-fade-in text-white">
+            <img
+              src="https://i.ibb.co/d4z3607G/eskimologo.png"
+              alt="Eskimo Logo"
+              className="w-16 h-16 mb-4"
+            />
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Download Our Official App
             </h2>

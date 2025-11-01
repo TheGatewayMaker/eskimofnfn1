@@ -59,6 +59,11 @@ export const MoreReasons = () => {
     <section className="section-padding bg-gradient-to-b from-gray-50 to-white">
       <div className="container-max">
         <div className="text-center mb-16 scroll-fade-in">
+          <img
+            src="https://i.ibb.co/d4z3607G/eskimologo.png"
+            alt="Eskimo Logo"
+            className="w-16 h-16 mx-auto mb-4"
+          />
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             More reasons to love Eskimo eSIM
           </h2>

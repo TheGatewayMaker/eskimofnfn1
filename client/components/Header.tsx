@@ -23,7 +23,7 @@ export const Header = () => {
             aria-label="Eskimo Home"
           >
             <img
-              src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/69/fc/f769fc9a-fcf2-4967-cb18-63c6a84a32d8/AppIcon-0-0-1x_U007emarketing-0-85-220.png/230x0w.webp"
+              src="https://i.ibb.co/d4z3607G/eskimologo.png"
               alt="Eskimo Logo"
               className="w-10 h-10 rounded-lg"
             />

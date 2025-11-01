@@ -114,6 +114,11 @@ export default function Pricing() {
             </div>
 
             <div className="bg-blue-50 rounded-2xl p-8 md:p-12 text-center">
+              <img
+                src="https://i.ibb.co/d4z3607G/eskimologo.png"
+                alt="Eskimo Logo"
+                className="w-16 h-16 mx-auto mb-3"
+              />
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Earn Unlimited Free Data
               </h2>
