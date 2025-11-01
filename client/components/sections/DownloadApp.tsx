@@ -60,38 +60,6 @@ export const DownloadApp = () => {
             />
           </div>
         </div>
-
-        {/* Features highlight */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            {
-              title: "Instant Setup",
-              description: "Activate your eSIM in seconds without ID verification.",
-              icon: "⚡",
-            },
-            {
-              title: "Real-time Monitoring",
-              description: "Track your data usage and validity in real-time.",
-              icon: "📊",
-            },
-            {
-              title: "Global Support",
-              description:
-                "Access 24/7 support and manage multiple eSIMs on one app.",
-              icon: "🌍",
-            },
-          ].map((feature, i) => (
-            <div
-              key={i}
-              className="scroll-fade-in text-white text-center"
-              style={{ animationDelay: `${i * 100}ms` }}
-            >
-              <div className="text-5xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-              <p className="text-blue-100">{feature.description}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
