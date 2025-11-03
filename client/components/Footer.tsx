@@ -109,7 +109,7 @@ export const Footer = () => {
                     <li key={i}>
                       <a
                         href={link.href}
-                        className="text-blue-200 hover:text-white transition-colors text-sm"
+                        className="text-blue-200 hover:text-white hover:underline underline-offset-4 transition-colors text-sm"
                       >
                         {link.label}
                       </a>
