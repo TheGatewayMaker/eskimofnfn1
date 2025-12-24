@@ -15,7 +15,6 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/70">
       <nav className="container-max flex items-center justify-between h-16">
-        {/* Logo */}
         <div className="flex-shrink-0">
           <a
             href="/"
@@ -33,7 +32,6 @@ export const Header = () => {
           </a>
         </div>
 
-        {/* Desktop navigation */}
         <div className="hidden md:flex items-center gap-2">
           {navLinks.map((link, i) => (
             <a
@@ -47,7 +45,6 @@ export const Header = () => {
           ))}
         </div>
 
-        {/* CTA Button */}
         <div className="hidden md:flex items-center gap-4">
           <a
             href="/#data-plans"
@@ -58,7 +55,6 @@ export const Header = () => {
           </a>
         </div>
 
-        {/* Mobile menu button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
@@ -73,7 +69,6 @@ export const Header = () => {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       {isOpen && (
         <div
           id="mobile-menu"
