@@ -83,7 +83,7 @@ export const HowItWorks = () => {
             {[
               {
                 label: "Starter Data",
-                value: "~1GB",
+                value: "1GB",
                 detail: "First month included",
               },
               {

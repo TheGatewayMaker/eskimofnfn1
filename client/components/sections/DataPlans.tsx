@@ -8,7 +8,7 @@ export const DataPlans = () => {
       price: "Free",
       description: "Perfect to get started",
       features: [
-        "~1GB of 4G/5G data",
+        "1GB of 4G/5G data",
         "30-day validity",
         "200+ countries coverage",
         "Data-only access first 30 days",
