@@ -3,7 +3,6 @@ export const DownloadApp = () => {
     <section className="section-padding bg-gradient-to-br from-blue-600 to-blue-800">
       <div className="container-max">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left side - Content */}
           <div className="scroll-fade-in text-white">
             <img
               src="https://i.ibb.co/d4z3607G/eskimologo.png"
@@ -20,13 +19,12 @@ export const DownloadApp = () => {
               with our intuitive mobile app.
             </p>
 
-            <div className="space-y-4 mt-8">
-              {/* Apple App Store Button */}
+            <div className="flex flex-wrap gap-6 mt-8">
               <a
                 href="https://apps.apple.com/us/app/eskimo-esim-travel-internet/id1590276868"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block group hover:scale-105 transition-transform duration-300 hover:shadow-lg"
+                className="hover:scale-105 transition-transform duration-300 hover:shadow-lg"
               >
                 <img
                   src="https://i.ibb.co/dJQX5Cvs/appstore.png"
@@ -35,12 +33,11 @@ export const DownloadApp = () => {
                 />
               </a>
 
-              {/* Google Play Store Button */}
               <a
                 href="https://play.google.com/store/apps/details?id=travel.eskimo.esim&pli=1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block group hover:scale-105 transition-transform duration-300 hover:shadow-lg"
+                className="hover:scale-105 transition-transform duration-300 hover:shadow-lg"
               >
                 <img
                   src="https://i.ibb.co/F4VKNmcC/playstore.png"
@@ -56,7 +53,6 @@ export const DownloadApp = () => {
             </p>
           </div>
 
-          {/* Right side - Phone Image */}
           <div
             className="scroll-fade-in flex justify-center"
             style={{ animationDelay: "100ms" }}
